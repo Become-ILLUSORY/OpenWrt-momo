@@ -21,7 +21,7 @@ PKG_BUILD_FLAGS:=no-mips16
 GO_PKG:=github.com/sagernet/sing-box
 GO_PKG_BUILD_PKG:=$(GO_PKG)/cmd/sing-box
 GO_PKG_LDFLAGS_X:=$(GO_PKG)/constant.Version=$(PKG_SOURCE_VERSION)
-GO_PKG_TAGS:=with_quic,with_utls,with_gvisor,with_wireguard,with_tailscale,with_acme,with_clash_api
+GO_PKG_TAGS:=with_quic,with_utls,with_gvisor,with_acme,with_clash_api
 
 include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
