@@ -7,9 +7,9 @@ PKG_RELEASE:=1
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/SagerNet/sing-box.git
-PKG_SOURCE_VERSION:=v1.12.1
-PKG_MIRROR_HASH:=355eb77d48a249fdf6d59bc21a9b250fa29f154ed7132dfed3e6bd7c9d386d91
+PKG_SOURCE_URL:=https://github.com/reF1nd/sing-box.git
+PKG_SOURCE_VERSION:=reF1nd-dev
+PKG_MIRROR_HASH:=skip
 
 PKG_LICENSE:=GPL-3.0+
 PKG_MAINTAINER:=Joseph Mory <morytyann@gmail.com>
